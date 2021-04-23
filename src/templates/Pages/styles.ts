@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Content = styled.section`
+  height: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -20,4 +21,4 @@ export const Body = styled.div`
     font-size: var(--medium);
     line-height: var(--medium);
   }
-`;
+`
